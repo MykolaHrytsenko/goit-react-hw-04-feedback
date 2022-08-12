@@ -1,0 +1,13 @@
+.list {
+  display: flex;
+  align-items: center;
+
+  list-style: none;
+  padding-left: 10px;
+}
+
+.btn {
+  margin-right: 5px;
+  width: 70px;
+  cursor: pointer;
+}

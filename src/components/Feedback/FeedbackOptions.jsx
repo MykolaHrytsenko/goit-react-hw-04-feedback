@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import css from './FeedbackOptions.module.css';
 
 export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
-  // const arrState = Object.keys(options);
   return (
     <div>
       <ul className={css.list}>

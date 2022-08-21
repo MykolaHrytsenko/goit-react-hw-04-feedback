@@ -41,7 +41,10 @@ export function App() {
   return (
     <>
       <Section title="Please leave feedback">
-        <FeedbackOptions options={state} onLeaveFeedback={leaveFeedback} />
+        <FeedbackOptions
+          options={Object.keys(state)}
+          onLeaveFeedback={leaveFeedback}
+        />
       </Section>
       <Section title="Statistics">
         {countTotalFeedback() === 0 ? (
